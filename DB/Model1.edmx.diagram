@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c929aa51a20b4719873a089007ad38da" Name="Diagram1">
+        <EntityTypeShape EntityType="RestorauntDBModel.Categories" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestorauntDBModel.Dishes" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestorauntDBModel.OrderItems" Width="1.5" PointX="7.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestorauntDBModel.Orders" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestorauntDBModel.Roles" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestorauntDBModel.Status" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestorauntDBModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestorauntDBModel.Users" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="RestorauntDBModel.FK_Dishes_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="RestorauntDBModel.FK_OrderItems_Dishes" ManuallyRouted="false" />
+        <AssociationConnector Association="RestorauntDBModel.FK_OrderItems_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="RestorauntDBModel.FK_Orders_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="RestorauntDBModel.FK_Orders_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="RestorauntDBModel.FK_Users_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
